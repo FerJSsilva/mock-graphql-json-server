@@ -7,6 +7,11 @@
   "author": "Fernando Silva <development.ferjssilva@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "mock-server": "json-server --watch mock-json-server/db.json --port 3000"
+  },
   "dependencies": {
     "apollo-server": "^2.6.1",
     "axios": "^0.19.0",
