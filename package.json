@@ -1,0 +1,10 @@
+{
+  "name": "mock-graphql-json-server",
+  "version": "1.0.0",
+  "description": "A server to mock data using Json and deliver it using graphQL",
+  "main": "index.js",
+  "repository": "https://github.com/FerJSsilva/mock-graphql-json-server",
+  "author": "Fernando Silva <development.ferjssilva@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
