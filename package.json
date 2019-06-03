@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "mock-server": "json-server --watch mock-json-server/db.json --port 3000"
+    "json-server": "json-server --watch mock-json-server/db.json --port 3001"
   },
   "dependencies": {
     "apollo-server": "^2.6.1",
