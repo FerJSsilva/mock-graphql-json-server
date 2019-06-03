@@ -6,5 +6,9 @@
   "repository": "https://github.com/FerJSsilva/mock-graphql-json-server",
   "author": "Fernando Silva <development.ferjssilva@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "apollo-server": "^2.6.1",
+    "graphql": "^14.3.1"
+  }
 }
