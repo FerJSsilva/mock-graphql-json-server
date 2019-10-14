@@ -1,0 +1,24 @@
+{
+  "name": "mock-graphql-json-server",
+  "version": "1.0.0",
+  "description": "A server to mock data using Json and deliver it using graphQL",
+  "main": "index.js",
+  "repository": "https://github.com/FerJSsilva/mock-graphql-json-server",
+  "author": "Fernando Silva <development.ferjssilva@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "json-server": "json-server --watch mock-json-server/db.json --port 3001"
+  },
+  "dependencies": {
+    "apollo-server": "^2.6.1",
+    "axios": "^0.19.0",
+    "graphql": "^14.3.1",
+    "json-server": "^0.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
