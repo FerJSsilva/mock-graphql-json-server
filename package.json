@@ -13,7 +13,7 @@
     "json-server": "json-server --watch mock-json-server/db.json --port 3001"
   },
   "dependencies": {
-    "apollo-server": "^2.6.1",
+    "apollo-server": "^2.14.2",
     "axios": "^0.19.0",
     "graphql": "^14.3.1",
     "json-server": "^0.15.0"
